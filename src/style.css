@@ -1,0 +1,87 @@
+/* 全局重置样式 - FocusPet Design System */
+
+:root {
+  /* 主色调 - 草绿色系 */
+  --primary: #7CB342;
+  --primary-light: #AED581;
+  --primary-dark: #558B2F;
+  --primary-soft: rgba(124, 179, 66, 0.12);
+
+  /* 辅助色 */
+  --accent: #FF8A65;
+  --accent-light: #FFAB91;
+  --accent-soft: rgba(255, 138, 101, 0.12);
+
+  --warning: #FFB74D;
+  --warning-light: #FFD54F;
+  --warning-soft: rgba(255, 183, 77, 0.12);
+
+  --success: #66BB6A;
+  --success-soft: rgba(102, 187, 106, 0.12);
+
+  /* 背景色 - 奶油色系 */
+  --bg: #FDF8F0;
+  --bg-warm: #FFF5E6;
+  --bg-green: #F1F8E9;
+  --bg-orange: #FFF3E0;
+  --bg-card: #FFFFFF;
+
+  /* 文字色 */
+  --ink: #2E3A1F;
+  --ink-secondary: #5D6B4A;
+  --muted: #8B9A7A;
+  --muted-light: #B8C4A8;
+
+  /* 边框与分割线 */
+  --rule: #E8E0D4;
+  --rule-light: #F0EBE3;
+
+  /* 阴影 */
+  --shadow-sm: 0 2px 8px rgba(124, 179, 66, 0.08);
+  --shadow-md: 0 4px 16px rgba(124, 179, 66, 0.12);
+  --shadow-lg: 0 8px 32px rgba(124, 179, 66, 0.16);
+  --shadow-card: 0 2px 12px rgba(46, 58, 31, 0.06);
+
+  /* 圆角 */
+  --radius-sm: 12px;
+  --radius-md: 16px;
+  --radius-lg: 20px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+}
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--bg);
+  color: var(--ink);
+  line-height: 1.6;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-font-smoothing: antialiased;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+/* 滚动条美化 */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: var(--primary-light);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--primary);
+}
