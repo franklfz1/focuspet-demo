@@ -89,60 +89,60 @@ export const MONSTER_TYPES: MonsterType[] = [
     id: 'flora', name: '小花', emoji: '🌿', color: '#7CB342',
     personality: '温柔体贴，喜欢鼓励你', desc: '绿色小精灵，总是用温暖的目光陪伴你学习',
     gifs: {
-      idle: '/monsters/green_monster_idle.webp',
-      happy: '/monsters/green_monster_happy.webp',
-      thinking: '/monsters/green_monster_thinking.webp',
-      blink: '/monsters/green_monster_blink.webp',
-      cheer: '/monsters/green_monster_cheer.webp',
+      idle: 'monsters/green_monster_idle.webp',
+      happy: 'monsters/green_monster_happy.webp',
+      thinking: 'monsters/green_monster_thinking.webp',
+      blink: 'monsters/green_monster_blink.webp',
+      cheer: 'monsters/green_monster_cheer.webp',
     }
   },
   {
     id: 'blaze', name: '小火', emoji: '🔥', color: '#FF7043',
     personality: '热情活泼，充满活力', desc: '火焰小怪兽，会用热情点燃你的学习动力',
     gifs: {
-      idle: '/monsters/orange_monster_idle.webp',
-      happy: '/monsters/orange_monster_happy.webp',
-      thinking: '/monsters/orange_monster_thinking.webp',
+      idle: 'monsters/orange_monster_idle.webp',
+      happy: 'monsters/orange_monster_happy.webp',
+      thinking: 'monsters/orange_monster_thinking.webp',
     }
   },
   {
     id: 'aqua', name: '小水', emoji: '💧', color: '#42A5F5',
     personality: '冷静沉稳，善于思考', desc: '水滴精灵，帮助你保持冷静专注',
     gifs: {
-      idle: '/monsters/blue_monster_idle.webp',
-      happy: '/monsters/blue_monster_happy.webp',
-      thinking: '/monsters/blue_monster_thinking.webp',
-      blink: '/monsters/blue_monster_blink.webp',
-      cheer: '/monsters/blue_monster_cheer.webp',
+      idle: 'monsters/blue_monster_idle.webp',
+      happy: 'monsters/blue_monster_happy.webp',
+      thinking: 'monsters/blue_monster_thinking.webp',
+      blink: 'monsters/blue_monster_blink.webp',
+      cheer: 'monsters/blue_monster_cheer.webp',
     }
   },
   {
     id: 'star', name: '小星', emoji: '⭐', color: '#FFD54F',
     personality: '乐观开朗，闪闪发光', desc: '星星小怪兽，让你的每一天都充满光芒',
     gifs: {
-      idle: '/monsters/pink_monster_idle.webp',
-      happy: '/monsters/pink_monster_happy.webp',
-      thinking: '/monsters/pink_monster_thinking.webp',
-      blink: '/monsters/pink_monster_blink.webp',
-      cheer: '/monsters/pink_monster_cheer.webp',
+      idle: 'monsters/pink_monster_idle.webp',
+      happy: 'monsters/pink_monster_happy.webp',
+      thinking: 'monsters/pink_monster_thinking.webp',
+      blink: 'monsters/pink_monster_blink.webp',
+      cheer: 'monsters/pink_monster_cheer.webp',
     }
   },
   {
     id: 'thunder', name: '小雷', emoji: '⚡', color: '#AB47BC',
     personality: '果断勇敢，行动力强', desc: '雷电精灵，给你雷厉风行的执行力',
     gifs: {
-      idle: '/monsters/purple_monster_idle.webp',
-      happy: '/monsters/purple_monster_happy.webp',
-      thinking: '/monsters/purple_monster_thinking.webp',
+      idle: 'monsters/purple_monster_idle.webp',
+      happy: 'monsters/purple_monster_happy.webp',
+      thinking: 'monsters/purple_monster_thinking.webp',
     }
   },
   {
     id: 'snow', name: '小雪', emoji: '❄️', color: '#4FC3F7',
     personality: '纯净善良，心思细腻', desc: '冰雪小精灵，用纯净的心灵守护你',
     gifs: {
-      idle: '/monsters/teal_monster_idle.webp',
-      happy: '/monsters/teal_monster_happy.webp',
-      thinking: '/monsters/teal_monster_thinking.webp',
+      idle: 'monsters/teal_monster_idle.webp',
+      happy: 'monsters/teal_monster_happy.webp',
+      thinking: 'monsters/teal_monster_thinking.webp',
     }
   },
 ]
